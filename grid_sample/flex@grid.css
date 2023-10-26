@@ -1,0 +1,72 @@
+html{
+    background:url(night.jpg);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    align-items: center;
+}
+.container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    grid-template-rows:repeat(auto-fit,minmax(200px,1fr));
+    margin: 50px;
+    gap: 20px;
+}
+.em{
+    box-shadow: 0 2px 4px 0 crimson;
+    padding: 50px;
+    transition: .8s;
+}
+.em h1,.em p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+.em-1{
+    background:url("rock.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.em-2{
+    background:url("pain\ nught.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.em-3{
+    background:url("wow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.em-4{
+    background:url("draw.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    background:transparent;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    size: 100px;
+}
+.em:hover{
+    transform:scale(1.3);
+    box-shadow: 2px 2px 2px black;
+    z-index: 2;
+}
+.em li,.em h4,.em label{
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 15px;
+}
+
